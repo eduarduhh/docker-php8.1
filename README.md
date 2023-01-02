@@ -13,7 +13,7 @@ Docker-compose with PHP 8 &amp; OCI Extensions, Apache 2.4, Mailcatcher
 ## Quick Start
 
 #### Clone the repository:
-`git clone https://github.com/eduarduhh/docker-php8.1`
+`git clone https://github.com/eduarduhh/docker-php8.1-oci`
 
 #### Go to the root folder:
 `cd php81-oci-docker`
