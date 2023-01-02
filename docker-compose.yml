@@ -1,0 +1,11 @@
+version: '3'
+services:
+  php81:
+    container_name: php81
+    build:
+        context: ./php-apache
+        dockerfile: Dockerfile
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - "80:80"
